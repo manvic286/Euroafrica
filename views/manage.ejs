@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+    <main class="container">
+        <!-- <h2>Manage Events</h2> -->
+        <section class="hero products-hero">
+            <div class="hero-content">
+                <h2>Products</h2>
+                <p>Browse our various products and varieties</p>
+            </div>
+        </section><br><br>
+
+        
+
+        <div class="create body">
+        
+            <form action="/products" method="POST">
+                <label for="productName">Product name</label>
+                <input type="text" name="productName" id="product-name" required>
+    
+                <label for="price">Product price</label>
+                <input type="text" name="price" id="product-price" required>
+    
+                <label for="rating">Base rating (max:1)</label>
+                <input type="number" min="1" max="1" name="rating" id="product-rating" required>
+    
+                <label for="description">Product description</label>
+                <textarea name="description" id="product-description" required></textarea>
+    
+                <!-- <label for="image">Choose Image: </label>
+                <input type="file" name="image" id="imageInput">
+                <img id="imagePreview" src="" alt=""> -->
+                <br><br>
+    
+                <button>Submit</button>
+            </form>
+    
+        </div>
+
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+    <script src="script.js"></script>
+</body>
+</html>

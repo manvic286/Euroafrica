@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+    <!-- products Hero Section -->
+    <section class="hero products-hero">
+        <div class="hero-content">
+            <h2>Products</h2>
+            <p>Browse our various products and varieties</p>
+        </div>
+    </section>
+
+    <!-- products List Section -->
+    <section class="products-container">
+        <% if(products.length > 0){ %>
+            <% products.forEach(product => { %> 
+                <a href="/products/<%= product._id %>" class="btn">
+                    <div class="product-card">
+                        <div class="product-date">
+                            <!-- <span class="month"><%= product.name %></span>
+                            <span class="day"><%= product.price %></span> -->
+                        </div>
+                        <div class="product-details">
+                            <h3><%= product.productName %></h3>
+                            <p class="">$<%= product.price %></p>
+                            <p class=""><%= product.rating %> star</p>
+                            <!-- <p class="product-location">Main Sanctuary</p> -->
+                            <p class="product-description"><%= product.description %></p>
+                        </div>
+                    </div>
+                </a>
+            <% }) %>
+        <% } else{ %> 
+                
+            <p>There are no products to show.....</p>
+        
+        <% } %>
+        
+        <!-- <div class="product-card">
+            <div class="product-date">
+                <span class="month">DEC</span>
+                <span class="day">22</span>
+            </div>
+            <div class="product-details">
+                <h3>Nine lessons and carols</h3>
+                <p class="product-time">4:00 PM</p>
+                <p class="product-location">Parish premises</p>
+                <p class="product-description">An evening of carols and lessons to celebrate the birth of Jesus Christ as well as to solidify the bond between the parishioners and the church</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div> -->
+        <!-- Add more product-card divs as needed -->
+    </section>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html> 

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="St. Charles Lwanga Catholic Church - One Faith, One Family">
+    <title>St. Charles Lwanga Catholic Church, Abeka |<%= title %></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/details.css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head> -->
+<body>
+
+    <%- include('./partials/nav.ejs') %>
+    <!-- <header>
+        
+    </header> -->
+
+    <div class="p-name">
+        <div class="product-img">
+            <img src="" alt="Product image">
+        </div>
+
+        <div class="product-name">
+            <h2><%- product.productName %></h2>
+            
+        </div>
+
+        
+        
+    </div>
+
+    <div class="description">
+        <p><%- product.description %></p>
+    </div>
+    
+    <a class="delete" data-doc="<%= product._id %>" >
+        <button class="delete" onclick="caution()">Delete</button>
+    </a>
+
+    <%- include('./partials/footer.ejs') %>
+
+    <script>
+        const deleteItem = document.querySelector('a.delete')
+
+        deleteItem.addEventListener('click', (e) => {
+            const endpoint = `/products/${deleteItem.dataset.doc}`
+
+            fetch(endpoint, {
+                method: 'DELETE'
+            })
+            .then((response)=> response.json())
+            .then(data => window.location.href = data.redirect)
+            .catch(err => console.log(err))
+        })
+
+        caution = () => {
+            // window.confirm('You are about to delete this product. Proceed?')
+            alert('You are about to delete this product')
+        }
+    </script>
+
+</body>
+</html>
