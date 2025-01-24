@@ -1,0 +1,123 @@
+[
+    {
+      "productName": "Tomato Seeds",
+      "price": 2.99,
+      "rating": 4.7,
+      "description": "These high-yielding tomato seeds produce juicy, flavorful tomatoes perfect for salads, sauces, and sandwiches."
+    },
+    {
+      "productName": "Carrot Seeds",
+      "price": 1.89,
+      "rating": 4.5,
+      "description": "Quick-growing carrot seeds that yield crisp, sweet roots ideal for snacking, cooking, and juicing."
+    },
+    {
+      "productName": "Cucumber Seeds",
+      "price": 3.49,
+      "rating": 4.6,
+      "description": "Reliable cucumber seeds that grow into fresh, crunchy fruits perfect for salads, pickles, and summer dishes."
+    },
+    {
+      "productName": "Sunflower Seeds",
+      "price": 2.99,
+      "rating": 4.8,
+      "description": "Bright and cheerful sunflower seeds that grow tall with large, stunning blooms, adding beauty to any garden."
+    },
+    {
+      "productName": "Lettuce Seeds",
+      "price": 1.59,
+      "rating": 4.4,
+      "description": "Premium lettuce seeds producing tender, leafy greens that thrive in gardens and container pots alike."
+    },
+    {
+      "productName": "Spinach Seeds",
+      "price": 1.79,
+      "rating": 4.5,
+      "description": "Rich and nutritious spinach seeds that grow quickly, delivering fresh, tender leaves perfect for salads or cooking."
+    },
+    {
+      "productName": "Basil Seeds",
+      "price": 2.49,
+      "rating": 4.9,
+      "description": "Aromatic basil seeds that produce lush, fragrant leaves ideal for pesto, garnishes, and herbal teas."
+    },
+    {
+      "productName": "Chili Pepper Seeds",
+      "price": 3.19,
+      "rating": 4.7,
+      "description": "Fiery chili seeds yielding vibrant, spicy peppers perfect for salsas, stir-fries, and adding heat to your dishes."
+    },
+    {
+      "productName": "Pumpkin Seeds",
+      "price": 4.99,
+      "rating": 4.8,
+      "description": "High-quality pumpkin seeds that grow into large, vibrant fruits perfect for carving, pies, or roasted snacks."
+    },
+    {
+      "productName": "Zucchini Seeds",
+      "price": 3.29,
+      "rating": 4.6,
+      "description": "Reliable zucchini seeds that produce tender, versatile fruits ideal for grilling, baking, and spiralizing."
+    },
+    {
+      "productName": "Sweet Corn Seeds",
+      "price": 5.49,
+      "rating": 4.9,
+      "description": "Sweet and juicy corn seeds that thrive in sunny conditions, yielding delicious ears perfect for grilling or boiling."
+    },
+    {
+      "productName": "Strawberry Seeds",
+      "price": 4.29,
+      "rating": 4.7,
+      "description": "Delicious strawberry seeds that produce sweet, red berries perfect for desserts, jams, or eating fresh."
+    },
+    {
+      "productName": "Mint Seeds",
+      "price": 2.49,
+      "rating": 4.6,
+      "description": "Fragrant mint seeds that grow into vibrant, aromatic plants, ideal for teas, mojitos, and desserts."
+    },
+    {
+      "productName": "Parsley Seeds",
+      "price": 1.99,
+      "rating": 4.5,
+      "description": "Flat-leaf parsley seeds that produce flavorful and decorative herbs perfect for garnishes and culinary dishes."
+    },
+    {
+      "productName": "Coriander Seeds",
+      "price": 1.79,
+      "rating": 4.4,
+      "description": "Flavorful coriander seeds that grow into leafy herbs and aromatic seeds, perfect for cooking and seasoning."
+    },
+    {
+      "productName": "Watermelon Seeds",
+      "price": 4.99,
+      "rating": 4.7,
+      "description": "High-yield watermelon seeds that produce large, sweet fruits perfect for refreshing summer treats."
+    },
+    {
+      "productName": "Pea Seeds",
+      "price": 3.49,
+      "rating": 4.6,
+      "description": "Fast-growing pea seeds that yield tender, green pods, ideal for snacking, stir-fries, or freezing."
+    },
+    {
+      "productName": "Broccoli Seeds",
+      "price": 2.79,
+      "rating": 4.5,
+      "description": "Nutritious broccoli seeds that thrive in various conditions, producing crisp, green florets full of vitamins."
+    },
+    {
+      "productName": "Lavender Seeds",
+      "price": 3.99,
+      "rating": 4.9,
+      "description": "Fragrant lavender seeds that grow into beautiful, aromatic plants, perfect for gardens, sachets, and relaxation."
+    },
+    {
+      "productName": "Rosemary Seeds",
+      "price": 2.89,
+      "rating": 4.8,
+      "description": "Hardy rosemary seeds that produce robust, aromatic plants, ideal for seasoning meats, breads, and soups."
+    }
+  ]
+  
